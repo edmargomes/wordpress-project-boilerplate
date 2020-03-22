@@ -68,9 +68,3 @@ composer require wpackagist-plugin/wp-cfm
     ```
 3. Add your plugin/theme directory under version control
 4. Run `composer install`. Composer will install WordPress core and keep your custom theme
-
-### Deployment via Wodby
-
-1. Create a new project. 
-2. Connect the repository to Wodby.
-3. Deploy new app, choose WordPress stack, on the 2nd step of the form choose connected repository and enter `web` as Codebase dir.
