@@ -2,15 +2,20 @@ version: "3.7"
 
 services:
   php:
-    image: wodby/wordpress:$WORDPRESS_TAG
     environment:
-      PHP_FPM_CLEAR_ENV: "no"
-    volumes:
-      - codebase:/var/www/html
-
-  nginx:
-    volumes:
-      - codebase:/var/www/html
-
-volumes:
-  codebase:
+      PHP_XDEBUG: 1
+      PHP_XDEBUG_DEFAULT_ENABLE: 1
+      PHP_XDEBUG_REMOTE_CONNECT_BACK: 1
+#  php:
+#    image: wodby/wordpress:$WORDPRESS_TAG
+#    environment:
+#      PHP_FPM_CLEAR_ENV: "no"
+#    volumes:
+#      - codebase:/var/www/html
+#
+#  nginx:
+#    volumes:
+#      - codebase:/var/www/html
+#
+#volumes:
+#  codebase:
