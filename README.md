@@ -20,6 +20,28 @@ Current WordPress core: `~5.0`
 
 ### How to install
 
+1. Rename `.env.example` to `.env` and change values.
+
+2. Run `make up`
+
+3. If your first run then you need access the container and run composer install
+```shell script
+make shell
+composer install
+```
+
+4. Add your PROJECT_BASE_URL in your /etc/hosts. 
+Example:
+```shell script
+127.0.0.1       wp.docker.local
+```
+
+5. Access PROJECT_BASE_URL using port 8000 in your browser. Example: wp.docker.local:8000
+
+Enjoy!!!
+
+OBS.: Look docker.mk to see others commands
+
 
 ### Introduction about Docker4Wordpress
 
