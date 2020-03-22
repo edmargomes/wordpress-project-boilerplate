@@ -1,17 +1,4 @@
-# Composer Template for WordPress Projects
-
-This project template should provide a kickstart for managing your site dependencies with [Composer](https://getcomposer.org/)
-and Docker.
-
-This project consist of:
-
-* WordPress core: [wodby/wordpress-composer](https://github.com/wodby/wordpress-composer)
-* Repository https://wpackagist.org/ to install WordPress plugins and themes
-* `composer/installers` to set custom paths for plugins and themes
-* `drupal-composer/preserve-paths` to exclude paths for plugins and themes under version control 
-* Docker4Wordpress: [wodby/docker4wordpress](https://github.com/wodby/docker4wordpress)
-
-Current WordPress core: `~5.0`
+# Composer Template for WordPress Projects using Docker
 
 ### Dependencies
 * Docker
@@ -38,10 +25,24 @@ Example:
 
 5. Access PROJECT_BASE_URL using port 8000 in your browser. Example: wp.docker.local:8000
 
-Enjoy!!!
+**Enjoy!!!**
 
-OBS.: Look docker.mk to see others commands
+**OBS.:** Look docker.mk to see others commands
 
+### Description
+
+This project template should provide a kickstart for managing your site dependencies with [Composer](https://getcomposer.org/)
+and Docker.
+
+This project consist of:
+
+* WordPress core: [wodby/wordpress-composer](https://github.com/wodby/wordpress-composer)
+* Repository https://wpackagist.org/ to install WordPress plugins and themes
+* `composer/installers` to set custom paths for plugins and themes
+* `drupal-composer/preserve-paths` to exclude paths for plugins and themes under version control 
+* Docker4Wordpress: [wodby/docker4wordpress](https://github.com/wodby/docker4wordpress)
+
+Current WordPress core: `~5.0`
 
 ### Introduction about Docker4Wordpress
 
