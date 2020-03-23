@@ -23,8 +23,9 @@
   "require": {
     "composer/installers": "^1.2",
     "drupal-composer/preserve-paths": "0.1.*",
+    "johnpbloch/wordpress-core": "~5.0",
     "johnpbloch/wordpress-core-installer": "^1.0",
-    "johnpbloch/wordpress-core": "~5.0"
+    "wpackagist-plugin/akismet": "^4.1"
   },
   "extra": {
     "installer-paths": {
