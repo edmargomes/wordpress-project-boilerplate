@@ -26,6 +26,7 @@
     "johnpbloch/wordpress-core": "~5.0",
     "johnpbloch/wordpress-core-installer": "^1.0",
     "wpackagist-plugin/akismet": "^4.1",
+    "wpackagist-plugin/capability-manager-enhanced": "^1.9",
     "wpackagist-plugin/woocommerce": "^4.0"
   },
   "extra": {

@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "9e21761cd84e36c67890fd18b871c367",
+    "content-hash": "0ddfafc88437351a6a42b792dc2a9f06",
     "packages": [
         {
             "name": "composer/installers",
@@ -290,6 +290,24 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/akismet/"
+        },
+        {
+            "name": "wpackagist-plugin/capability-manager-enhanced",
+            "version": "1.9.3",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/capability-manager-enhanced/",
+                "reference": "trunk"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/capability-manager-enhanced.zip?timestamp=1584485728"
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/capability-manager-enhanced/"
         },
         {
             "name": "wpackagist-plugin/woocommerce",
